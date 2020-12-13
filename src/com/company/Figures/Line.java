@@ -16,5 +16,4 @@ public class Line {
     public boolean isPointAboveLine(Point point) {
         return  point.getY() > a * ( point.getX() - x0) + y0;
     }
-
 }
